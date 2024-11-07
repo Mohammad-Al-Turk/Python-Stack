@@ -11,3 +11,4 @@ def show(request):
         'Comments':request.POST['Comments']
     }
     return render(request,"show.html",context)
+#لانه استخدما  ميثود بوست ما لازن انردر دايرت الزم نعمل ريداريكت  على باث ثاني ثم بنرندر مع استخدام السيشن

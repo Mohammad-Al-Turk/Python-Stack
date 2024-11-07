@@ -1,6 +1,6 @@
 from django.db import models
     
-class Users(models.Model):
+class py (models.Model):
     f_name = models.CharField(max_length=255)
     l_name = models.CharField(max_length=255)
     email = models.CharField(max_length=255)
