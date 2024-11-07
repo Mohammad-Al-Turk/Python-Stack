@@ -7,12 +7,12 @@ class User:
         
     def make_withdrawal(self, amount):
         self.balance= self.balance - amount
-        return self
+        return self#########
         
 
     def display_user_balance(self):
         print(f"User Name: {self.name}, balance: {self.balance}")
-        return self  
+        return self  #########
     
         
     def transfer_money(self, amount, reciver_user):
@@ -21,12 +21,12 @@ class User:
         reciver_user.make_deposite(amount)
         self.display_user_balance()
         reciver_user.display_user_balance()
-        return self  
+        return self  #####
         
         
     def make_deposite(self, amount):
         self.balance= self.balance + amount
-        return self
+        return self######################
         
         
 turk = User("Turk",50000)

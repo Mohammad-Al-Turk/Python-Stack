@@ -32,10 +32,10 @@ class User:
         
         
 turk = User("Turk",50000)
-sami = User("mo",0)
+ali = User("ali",0)
 
 turk.display_user_balance()
-turk.transfer_money(2000, sami)
+turk.transfer_money(2000, ali)
 
 
 
