@@ -58,7 +58,9 @@ This project is not licensed, it is open-source and you may feel free to use any
 
 ## Team members
 
-Mohammad Al-Turk.
-Loai A. Zaidan.
-Omar Rayyan.
+Mohammad Al-Turk
+
+Loai A. Zaidan
+
+Omar Rayyan
 
