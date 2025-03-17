@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Index</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container mt-4">
+      <a href="/clearsession" class="btn btn-danger">Log Out</a>
+
+      <h1 class="my-4">All Pies</h1>
+
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Baker</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for pie in all_Pir %}
+            <tr>
+              <td><a href="">{{ pie.name }}</a></td>
+              <td>{{ pie.user.fname }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      <input type="hidden" name="gtid" id="" value="pie.id">
+      <a href="/dash" class="btn btn-primary">Back to my Pies</a>
+    </div>
+  </body>
+</html>
